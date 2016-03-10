@@ -1,0 +1,37 @@
+    	* {padding:0px; margin:0px;}
+    	body {background-image: url("images/cork2.gif"); background-repeat:repeat-y; font-family:avenir;}
+    	
+    	/* TODO LIST CODE */
+    	#todo {background-color:ivory; width:350px; position:absolute; top:50px; left:20px; padding:10px; border-radius:5px;}
+    	#todo h2 {position:relative; margin:20px;}
+    	#todo h3 {background-color:white; width:330px; position:relative; margin:5px; padding:5px;}
+    	#todo button {background-color:dimgray; color:white; position:absolute; bottom:10px; right:10px; padding:5px; font-size:15px;}
+    	#items li {list-style-type:none; background-color:white; width:330px; position:relative; margin:5px;}
+    	
+    	/* POSTITS CODE */
+    	#postits {position: absolute; top:400px; left:20px;}
+    	.column { width: 170px;  float: left; padding-bottom: 100px; }		
+		.portlet { padding: 0.3em; }
+  		.portlet-header {padding: 0.2em 0.3em;  position: relative; background-color:#83084A; color:white; }
+  		.portlet-toggle {position: absolute;  top: 50%; right: 0; }
+		.portlet-content {padding: 0.6em; margin-top:-8px; background-color:#F00F87;}
+	  	.portlet-placeholder { border: 1px dotted black; height: 50px; }
+    	
+    	/* SYLLABUS CODE */
+    	#syllabus {width:330px; position:absolute; top:50px; right:10px; border-radius:3px;}
+    	#syllabus h2 {background-color:dimgray; color:white; padding:15px; border-top-left-radius:25px; border-top-right-radius:25px;}
+    	#classes {}
+    	#classes h4 {background-color:yellow; padding:5px; border-radius:2px; margin:5px;}
+    	#classes article {padding:10px; margin-left:12px;}
+    	
+    	#classes li {float:left; list-style-type:none; width:140px; background-color:#4ECCB7; border-radius:5px; font-family:arial; text-align:center; margin:1px;}
+		#classes li:hover {background-color:#009179;}
+		#classes li h5 {padding:6px; color:white;}
+		#classes li h5:hover {color:#00BB9C;}
+    	
+    	.slidey {width:300px; background-color:#0000cc; margin:auto; padding:15px; }
+    	.slidey h3 {font-size:15px; font-family:avenir; color:white;}
+    	
+    	/* FOOTER */
+    	footer {height:50px; width:2000px; position:absolute; bottom:0px; background-image:url("images/marker.png"); background-repeat:repeat-x;}
+    	#valid {width:90px; height:50px; padding:5px; position:absolute; bottom:0px; left:10px; background-color:rgba(255,255,255,0.5);}

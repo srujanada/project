@@ -1,0 +1,29 @@
+    	* {padding:0px; margin:0px;}
+    	body {background-image: url("images/cork2.gif"); background-repeat:repeat-y; font-family:avenir;}
+    	
+    	/* TODO LIST CODE */
+    	#todo {background-color:dimgray; width:350px; padding:10px; border-radius:5px;}
+    	#todo h2 {position:relative; margin:20px; color:white;}
+    	#todo h3 {background-color:ivory; width:330px; position:relative; margin:5px; padding:5px;}
+    	#todo button {background-color:ivory; color:gray; position:absolute; bottom:10px; right:10px; padding:5px; font-size:15px;}
+    	
+    	/* CALENDAR CODE */
+    	#calendar {}
+    	
+    	/* SYLLABUS CODE */
+    	#syllabus {width:330px; position:absolute; top:50px; right:10px; border-radius:3px;}
+    	#syllabus h2 {background-color:dimgray; color:white; padding:15px;}
+    	#classes {}
+    	#classes h4 {background-color:purple; color:white; padding:5px; border-radius:2px; margin:5px;}
+    	#classes article {padding:10px; margin-left:12px;}
+    	
+    	#classes li {float:left; list-style-type:none; width:140px; background-color:#4ECCB7; border-radius:5px; font-family:arial; text-align:center; margin:1px;}
+		#classes li:hover {background-color:#009179;}
+		#classes li h5 {padding:6px; color:white;}
+		#classes li h5:hover {color:#00BB9C;}
+    	
+    	.slidey {width:300px; background-color:orange; margin:auto; padding:15px; border-bottom-left-radius:25px; border-bottom-right-radius:25px;}
+    	.slidey h3 {font-size:15px; font-family:avenir;}
+    	
+    	/* FOOTER */
+    	footer {height:50px; width:90px; position:absolute; left:5px; bottom:0px;}
